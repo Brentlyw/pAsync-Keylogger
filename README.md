@@ -1,5 +1,11 @@
 # pAsync-Keylogger
-An extremely small keylogger that uses an indirect call to 'GetAsyncKeyState' and exfils to a python server
+An extremely small keylogger that uses an indirect call to 'GetAsyncKeyState' and exfils to a python server.
+
+This was made as a foundational PoC and should be expanded for functionality. 
+
+# To be changed
+- Case sensitive polling
+- Special character handling
 
 # Features
 - Randomly generated XOR encryption key for every log sent (no hard-coded key)
